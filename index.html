@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Side: Image Panel -->
+        <div class="image-panel">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1000&auto=format&fit=crop" alt="Coffee and Book Aesthetic">
+        </div>
+
+        <!-- Right Side: Register Form -->
+        <div class="form-panel">
+            <h2>Register</h2>
+            
+            <form>
+                <!-- Full Name -->
+                <div class="input-group">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+
+                <!-- Email or Phone -->
+                <div class="input-group">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="text" placeholder="Email or Phone Number" required>
+                </div>
+
+                <!-- Password -->
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-regular fa-eye-slash toggle-password"></i>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Confirm Password" required>
+                    <i class="fa-regular fa-eye-slash toggle-password"></i>
+                </div>
+
+                <!-- Terms Checkbox -->
+                <div class="terms-group">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">Lorem Ipsum is simply dummy text of the printing and type.</label>
+                </div>
+
+                <!-- Register Button -->
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+
+            <!-- Social Login Divider -->
+            <div class="social-divider">
+                <span>Register in with</span>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="#" class="social-btn"><i class="fa-brands fa-google"></i></a>
+                <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+
+            <!-- Footer Link -->
+            <div class="login-footer">
+                <p>Already have an account ?</p>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
